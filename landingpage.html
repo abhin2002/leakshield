@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeakShield - Prevent Data Leaks to AI Tools</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f5f7fa;
+      color: #333;
+      padding: 40px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    header img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #1a1a1a;
+    }
+    p.subtitle {
+      font-size: 1.25rem;
+      color: #555;
+      margin-top: 10px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #fff;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      color: #222;
+    }
+    .card p {
+      color: #666;
+      line-height: 1.5;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 70px;
+    }
+    .cta h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    .cta p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 14px 32px;
+      background: #e63946;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .cta a:hover {
+      background: #d62839;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="LeakShield Logo" />
+    <h1>LeakShield</h1>
+    <p class="subtitle">Protect your sensitive data from accidental leaks to AI tools — in real-time.</p>
+  </header>
+
+  <section class="features">
+    <div class="card">
+      <h3>⚡ Real-Time Monitoring</h3>
+      <p>Detect sensitive keywords (emails, passwords, tokens) as you type — before you hit submit.</p>
+    </div>
+    <div class="card">
+      <h3>🔒 Local-First Privacy</h3>
+      <p>Runs entirely in your browser. No data is sent to any server or cloud.</p>
+    </div>
+    <div class="card">
+      <h3>🧠 AI Tool Awareness</h3>
+      <p>Warns you when you’re typing into platforms like ChatGPT, Gemini, or Copilot.</p>
+    </div>
+    <div class="card">
+      <h3>🛡️ Lightweight & Fast</h3>
+      <p>Small, fast, and efficient extension that runs quietly in the background with instant toast notifications.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Join the Early Access Waitlist</h2>
+    <p>Be the first to try LeakShield when it launches.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSexAC1EPuqbotgQgLnteYuAPxtc3BB49NoKmvDmh1wM7WLccw/viewform?usp=dialog" target="_blank">Join Waitlist</a>
+  </section>
+</body>
+</html>
